@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "valoffe-robotctrl_jd493"
+name = "valoffe-tensor_parallel_split_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告机器人运动控制工程师·张量并行切分策略相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://valoffe.github.io"
-Repository = "https://github.com/valoffe/robotctrl_jd493"
-Issues = "https://github.com/valoffe/robotctrl_jd493/issues"
+Repository = "https://github.com/valoffe/tensor_parallel_split_pattern_locate"
+Issues = "https://github.com/valoffe/tensor_parallel_split_pattern_locate/issues"
 
 [project.scripts]
-robotctrl_jd493 = "robotctrl_jd493:main"
+tensor_parallel_split_pattern_locate = "tensor_parallel_split_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["robotctrl_jd493"]
+py-modules = ["tensor_parallel_split_pattern_locate"]
